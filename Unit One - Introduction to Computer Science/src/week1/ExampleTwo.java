@@ -7,5 +7,7 @@ public class ExampleTwo {
         System.out.print("C");
         System.out.println("D");
         System.out.println("E");
+        System.out.println("I like men");
+
     }
 }
