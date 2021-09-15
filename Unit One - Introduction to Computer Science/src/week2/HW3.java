@@ -1,6 +1,6 @@
 package week2;
 //Write a program that uses a five digit number and calculates the product of the 2nd and 4th digit. Use the modulus and and division operators.
-
+//save
 public class HW3 {
     public static void main(String[] args) {
         int num = 56724;
