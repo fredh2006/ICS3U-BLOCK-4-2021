@@ -47,10 +47,11 @@ public class ExtraPractice {
         double volume = Math.PI*((double)radius)*radius*height;
         System.out.println(volume);
     } 
-    public static void exampleTen(String str4){
+    public static String exampleTen(String str4){
         int rand = (int)(Math.random()*str4.length());
         String start = str4.substring(0,rand);
         String end = str4.substring(rand + 1);
+        return start + end;
     }
 
 
