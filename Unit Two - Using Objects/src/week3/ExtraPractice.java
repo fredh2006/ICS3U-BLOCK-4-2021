@@ -39,15 +39,13 @@ public class ExtraPractice {
         int end = (n.length()+m.length());
         return(end);
     }
-    public static String exampleEight(int x1, int y1, int x2, int y2){
+    public static void exampleEight(int x1, int y1, int x2, int y2){
         int yChange = y2 - y1;
         int xChange = x2 - x1;
-        return(yChange + "/" + xChange);
     }
-    public static double exampleNine(int radius, int height){
+    public static void exampleNine(int radius, int height){
         double volume = Math.PI*((double)radius)*radius*height;
         System.out.println(volume);
-        return volume;
     } 
     public static void exampleTen(String str4){
         int rand = (int)(Math.random()*str4.length());
