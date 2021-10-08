@@ -43,7 +43,7 @@ public class CrossCountry {
         System.out.println("Finish Time: " + finish);
     }
 
-    //function to subtract the times, giving the values of splitTwo, and splitThree
+    //function to subtract the times, giving the values of splitTwo and splitThree
     private static String subtractTimes(String endTime, String startTime) {
         //calls convertToSeconds twice, giving it the paramters "endTime" and "startTime" respectively
         double endTimeInSeconds = convertToSeconds(endTime);
