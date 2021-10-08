@@ -51,7 +51,7 @@ public class CrossCountry {
 
         //calculates the difference in time in SECONDS
         double diffInSeconds = endTimeInSeconds - startTimeInSeconds;
-        //returns the time in (minutes: seconds. milliseconds), by calling convertToTime, and giving it the paramter diffInSeconds
+        //returns the time in (minutes: seconds. milliseconds) by calling convertToTime, and giving it the paramter diffInSeconds
         return convertToTime(diffInSeconds);
 
     }
